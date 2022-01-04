@@ -5,6 +5,7 @@ const commonConfig = require('./webpack.common');
 const packageJson = require('../package.json');
 
 const devConfig = {
+  devtool: 'inline-source-map',
   mode: 'development',
   devServer: {
     port: 8081,
