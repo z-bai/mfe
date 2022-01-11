@@ -6,7 +6,7 @@ on:
       - master
     paths:
       - 'packages/dashboard/**'
-      - '.github/workflows/container.yml'
+      - '.github/workflows/dashboard.yml'
 
 defaults:
   run:

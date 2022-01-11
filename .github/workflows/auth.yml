@@ -6,7 +6,7 @@ on:
       - master
     paths:
       - 'packages/auth/**'
-      - '.github/workflows/container.yml'
+      - '.github/workflows/auth.yml'
 
 defaults:
   run:
